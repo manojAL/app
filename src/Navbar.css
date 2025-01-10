@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #264653;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+.logo{
+    height: 100%;
+    min-width: fit-content;
+    display: flex;
+    align-items:center;
+}
+.logo-link{
+  color: aliceblue;
+  font-family: "Protest Revolution",sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    flex: 1; /* Takes up remaining space */
+    justify-content: space-evenly; /* Equal spacing between links */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-links a {
+    text-decoration: none; /* Removes the underline */
+    color: whitesmoke;  
+    transition: color 0.3s ease;     
+}
+.navbar-links a:hover {
+    color: #ff6347; /* Example hover color */
+}
+  
+.toggle-btn {
+    display: none; /* Hidden on larger screens */
+    font-size: 25px;
+    color: aliceblue;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    .navbar-links {
+        display: none; /* Hidden by default */
+        flex-direction: column; /* Stack links vertically */
+        position: absolute;
+        top: 10vh; /* Place below the navbar */
+        right: 0;
+        background-color: #264653;
+        padding: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dropdown shadow */
+        border-radius: 5px;
+        width: 100%; /* Full width for dropdown */
+    }
+
+    .navbar-links.active {
+        display: flex; /* Show when active */
+    }
+
+    .toggle-btn {
+        display: block; /* Show toggle button on smaller screens */
+    }
+}
