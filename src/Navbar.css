@@ -69,3 +69,39 @@
         display: flex; /* Show toggle button on smaller screens */
     }
 }
+.toggle-bar {
+    list-style-type: none;
+    position: absolute; /* Allows precise positioning */
+    right: 0; /* Pushes the element to the extreme right */
+    top: 12.7vh; /* Adjusts the vertical position (optional) */
+    width:100%;
+    height: fit-content;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0.6, 0.6, 0.6, 0.6);
+    padding: 10px; /* Adds some spacing inside the toggle bar */
+    transition: transform 0.3s ease-in-out;
+}
+.toggle-bar li:hover{
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.toggle-bar li {
+    padding: 20px;
+    text-align: center;
+}
+
+.toggle-bar a {
+    color: azure;
+    text-decoration: none; /* Removes underline from links */
+}
+.no-toggle{
+    display:none;
+}
+
+
