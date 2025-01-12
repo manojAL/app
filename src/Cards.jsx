@@ -4,38 +4,39 @@ import "./Cards.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+
 const data = [
-  {
+  { Path:"/images/photo1.jpg",
     Initiation: "Providing clean water",
     NGO_involved: "Charity: Water",
     Location: "Addis Ababa",
     People_registered: 250,
   },
-  {
+  { Path:"/images/photo2.jpg",
     Initiation: "Distributing food supplies",
     NGO_involved: "Feeding America",
     Location: "Chicago",
     People_registered: 300,
   },
-  {
+  { Path:"/images/photo3.jpg",
     Initiation: "Protecting natural habitats",
     NGO_involved: "The Nature Conservancy",
     Location: "Yellowstone National Park",
     People_registered: 100,
   },
-  {
+  { Path: "/images/photo4.jpg",
     Initiation: "Combating global poverty",
     NGO_involved: "Oxfam",
     Location: "Dhaka",
     People_registered: 400,
   },
-  {
+  { Path:"/images/photo5.jpg",
     Initiation: "Supporting childhood cancer",
     NGO_involved: "St. Jude Children's Research Hospital",
     Location: "Memphis",
     People_registered: 150,
   },
-  {
+  { Path:"/images/photo6.jpg",
     Initiation: "Offering social services",
     NGO_involved: "The Salvation Army",
     Location: "London",
@@ -67,8 +68,8 @@ function Cards() {
           <div key={index} className="card">
             <div className="img">
               <img
-                src={`https://via.placeholder.com/150?text=${item.NGO_involved}`}
-                alt={item.NGO_involved}
+                src={item.Path}
+                alt="https://via.placeholder.com/150"
               />
             </div>
             <div className="initiation">{item.Initiation}</div>

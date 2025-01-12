@@ -1,20 +1,38 @@
 .slider {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .card {
-    background: #f4f4f4;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    height: 200px;
-  }
-  
-  .card img {
-    max-width: 100%;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
+  width: 80%;
+  margin: auto;
+  padding: 60px;
+  background-color: darkgrey;
+}
+
+.card {
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  height: 300px; /* Increased height to accommodate the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out the content vertically */
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  height: 150px; /* Define a fixed height for the image container */
+  overflow: hidden; /* Hide any overflow */
+  margin-bottom: 10px;
+}
+
+.img img {
+  max-height: 100%; /* Fit image height */
+  max-width: 100%; /* Fit image width */
+  object-fit: contain; /* Ensure the image fits within the container */
+}
+
+.initiation, .NGO, .location, .people {
+  margin: 5px 0; /* Add some spacing between the texts */
+}
