@@ -94,12 +94,15 @@ function Cards() {
               <img
                 src={item.Path}
                 alt="https://via.placeholder.com/150"
+                loading="lazy"
               />
             </div>
+            <div className="content">
             <div className="initiation">{item.Initiation}</div>
             <div className="NGO">{item.NGO_involved}</div>
             <div className="location">{item.Location}</div>
             <div className="people">People: {item.People_registered}</div>
+            </div>
             <div className="button"><button>JOIN</button></div>
           </div>
         ))}

@@ -60,6 +60,7 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dropdown shadow */
         border-radius: 5px;
         width: 100%; /* Full width for dropdown */
+        z-index: 1001;
     }
 
     .navbar-links.active {
@@ -68,6 +69,7 @@
 
     .toggle-btn {
         display: flex; /* Show toggle button on smaller screens */
+        z-index: 1002;
     }
 }
 .toggle-bar {
@@ -86,6 +88,7 @@
     box-shadow: 0 4px 6px rgba(0.6, 0.6, 0.6, 0.6);
     padding: 10px; /* Adds some spacing inside the toggle bar */
     transition: transform 0.3s ease-in-out;
+    z-index: 1000; /* Key change: higher z-index */
 }
 .toggle-bar li:hover{
     font-weight: 700;

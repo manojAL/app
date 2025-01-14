@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+IN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin: 0;
+    padding: 0;
+}
 .section h1{
     font-family: Poppins, sans-serif;
     font-size: 50px;
@@ -10,39 +17,91 @@
 .section{
     display: flex;
     padding: 72px 24px;
-}
-.manoj{
-    text-transform:uppercase;
-    color: #2c3035;;
-    font-family:Poppins,sans-serif;
-    font-size: 16px;
-    padding-bottom: 24px;
-}
-.p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    color: #2c3035;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    line-height: 160%;
-}
-.circle{
+    background-color: azure;
+    align-items: center; /* Vertically center content */
+    gap: 20px; /* Add spacing between content and image */
+    width: 100%; /* Ensure section takes full width of its parent */
 
 }
-.slash{
-    z-index: -1;
-    position: absolute;
-    top: 210px;
-    right: 0%;
+.content{
+    flex:1;
 }
-.img{
-    max-width: 100%;
-    display: inline-block;
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
+.headline{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform:uppercase;
+    color: #2c3035;
+    font-size: 25px;
+    padding-bottom: 24px;
+}
+.section h1 { /* Styles for the heading within the section */
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 140%;
+    margin-bottom: 32px;
+    letter-spacing: 0.5px;
+}
+
+.section p { /* Styles for the paragraph within the section */
+    color: #2c3035;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400; /* Regular weight */
+    font-size: 16px;
+    line-height: 160%;
+    font-family: 'Playwrite IN', serif
+}
+
+.Enroll { /* Styles for the Enroll button */
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: #FFB366;
+    padding: 7px 25px;
+    border-radius: 7px; /* No rounded corners for Enroll button */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.Enroll-div {
+    margin-top: 20px;
+    border-color: #000000;
+    border-width: 1px;
+    cursor: pointer;
+   
+}
+
+.img-div {
+    flex: 1; /* Allow image container to take up space */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    max-height: 450px;
+    padding: 40px;
+}
+
+.img-div img {
+    width: 100%; /* Image should not exceed container width */
+    display: block; /* Important to prevent extra spacing */
+    max-height: 450px; /* Constrain the maximum height */
+    object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
+    border-radius: 15%; /* Make the image oval */
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .img-div {
+        margin-top: 20px; /* Add spacing between content and image on smaller screens */
+        max-width: 90%; /* Prevent image from being too large on small screens */
+    }
+
+}
+@media (max-width: 700px) {
+    .img-div {
+        display: none; /* Hides the image container */
+    }
 }
