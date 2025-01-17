@@ -2,6 +2,7 @@
 import './App.css';
 import Cards from './Cards.jsx';
 import Navbar from './Navbar.jsx';
+import Register from './Register.jsx';
 import Section from './Section.jsx';
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Cards/>
       <Section/>
+      <Register/>
     </div>
   )
 }

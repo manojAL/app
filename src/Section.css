@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+IN:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 * {
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     margin: 0;
@@ -44,11 +44,12 @@
 
 .section p { /* Styles for the paragraph within the section */
     color: #2c3035;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 400; /* Regular weight */
-    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600; /* Regular weight */
+    font-style: italic; /* Italic style */
+    font-size: 20px;
     line-height: 160%;
-    font-family: 'Playwrite IN', serif
+    
 }
 
 .Enroll { /* Styles for the Enroll button */
@@ -85,6 +86,10 @@
     max-height: 450px; /* Constrain the maximum height */
     object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
     border-radius: 15%; /* Make the image oval */
+    transition: transform 0.3s ease;
+}
+.img-div img:hover {
+    transform: translateY(-10px); /* Move the image upward by 10px on hover */
 }
 
 /* Responsive adjustments (optional) */
