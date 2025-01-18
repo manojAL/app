@@ -26,6 +26,7 @@ body {
 
 .fellowship {
     max-width: 60%;
+     margin-bottom: 20px;
 }
 
 .application {
@@ -45,7 +46,14 @@ body {
     color: #0073e6;
     transition: color 0.3s ease;
 }
-
+.ques h1 span {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.input-group {
+    margin-bottom: 15px;
+}
 .ques h1:hover {
     color: #005bb5;
 }
@@ -85,6 +93,7 @@ select {
 }
 
 button {
+    margin-top: 10px;
     padding: 6px 26px;
     background-color: #f74f22;
     color: #fff;
@@ -176,4 +185,14 @@ div p {
         max-width: 100%;
         margin-top: 20px;
     }
+}
+.alert {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+.input-group {
+    margin-bottom: 15px;
 }
