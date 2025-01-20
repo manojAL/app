@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.footer{
+    display: contents;
+    flex-direction: column; 
+    background-color: #252323;
+}
+.space-sec{
+    height: 130px;
+    width: 100%;
+    background-color: #252323;
+}
+.content-sec{
+    height:378px;
+    padding:0px 68px;
+    display: flex;
+    flex-direction: row;
+    background-color: #252323;
+}
+.volunteer-logo{
+    margin-top: 28px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: left;
+    height: fit-content;
+}
+.volunteer-heading{
+    font-family: "Protest Revolution",sans-serif;
+    font-size: 34px;
+    color: beige;
+}
+.description{
+    display: flex;
+    padding:0px;
+    margin:0px;
+}
+.description p{
+    padding:0px;
+    margin:0px;
+    font-family: 'Barlow',sans-serif;
+    color: beige;
+}
+.sitemap{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px;
+}
+.sitemap h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 30px 0px;
+    font-family: 'Barlow', sans-serif;
+    color: beige;
+}
+.elementor-widget-container{
+    display: flex;
+    justify-content: center;
+}
+.elementor-widget-container ul{
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0;           /* Optional: Removes default padding */
+    margin: 0;            
+}
+.elementor-widget-container li{
+    margin-bottom: 9px;
+    font-family: 'Barlow',sans-serif;
+    font-size: 16px;
+    color: beige;
+}
+.location{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.location-heading {
+    display: flex;
+    justify-content: left;
+}
+.location-heading h2{
+    margin:30px 0px;
+    font-family: 'Barlow',sans-serif;
+    font-size: 18px;
+    color: beige;
+}
+.elementor-col-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.location-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; /* Ensures the logo container spans the full width of the parent */
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+    margin-right: 20px; /* Adds spacing between logo and content */
+}
+
+/* Ensure the logo image fits nicely */
+.location-logo img {
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+}
+
+/* Styles for the location content */
+.location-content {
+    display: flex;
+    flex-direction: column; /* Aligns h3 and p vertically */
+    justify-content: flex-start;
+}
+
+/* Heading and paragraph in the location content */
+.location-content h3, .location-content p {
+    margin-bottom: 10px; /* Adds spacing below each */
+   padding: 0px;
+   font-family: 'Barlow',sans-serif;
+   font-size: 16px;
+   color: white;
+}
+
