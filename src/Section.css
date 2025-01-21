@@ -26,6 +26,9 @@
 .content{
     flex:1;
 }
+.content h1{
+    color: black;
+}
 .headline{
     font-family: 'Bebas Neue', sans-serif;
     text-transform:uppercase;

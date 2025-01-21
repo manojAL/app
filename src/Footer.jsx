@@ -27,7 +27,7 @@ function Footer(){
                     <div className="location">
                         <div className='location-heading'><h2>LOCATION</h2></div>
                         <div className="elementor-col-wrap">
-                            <div className="location-logo"></div>
+                            <div><span></span><i className='location-logo'></i></div>
                             <div className="location-content">
                                 <h3>Head Office</h3>
                                 <p>TC 7/1200, Chittatinkara, Vattiyoorkavu P.O.,Trivandrum 695013</p>
@@ -41,27 +41,29 @@ function Footer(){
                             <div className="content-wrapper"><p className="content">+91 8660901092</p></div>
                         </div>
                         <div className="social-icons">
-                            <span><a></a></span>
-                            <span><a></a></span>
-                            <span><a></a></span>
-                            <span><a></a></span>
-                            <span><a></a></span>
+                            <span><a><i className='fab fa-facebook'></i></a></span>
+                            <span><a><i className='fab fa-twitter'></i></a></span>
+                            <span><a><i className='fab fa-youtube'></i></a></span>
+                            <span><a><i className='fab fa-instagram'></i></a></span>
+                            <span><a><i className='fab fa-linkedin'></i></a></span>
                         </div>
                     </div>
                 
             </section>
-            <section>
-                <div>
+            <section className='line'>
+                <div className='elementor-widget-container'>
                     <div className="elementor-divider"><span className="elementor-divider-separator"></span></div>
                 </div>
             </section>
-            <section>
-                <div>
-                    <div><p></p></div>
+            <section className='bottom'>
+                <div className='elementor-widget-wrap'>
+                    <div className='termsndcond'><p>terms and conditions</p></div>
                     <div className="delimiter"></div>
-                    <div></div>
+                    <div className='privacy'><p>privacy policy</p></div>
                 </div>
-                <div></div>
+                <div className='copyright'>
+                    <p>Copyright © 2022 Volunteer For India by <span><a>Kitbe</a></span>.All right reserved</p>
+                </div>
             </section>
         </div>
     )
