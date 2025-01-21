@@ -27,7 +27,7 @@
 .volunteer-heading{
     font-family: "Protest Revolution",sans-serif;
     font-size: 34px;
-    color: beige;
+    color: white;
 }
 .description{
     display: flex;
@@ -38,7 +38,7 @@
     padding:0px;
     margin:0px;
     font-family: 'Barlow',sans-serif;
-    color: beige;
+    color: white;
 }
 .sitemap{
     display: flex;
@@ -51,7 +51,7 @@
     font-size: 18px;
     margin: 30px 0px;
     font-family: 'Barlow', sans-serif;
-    color: beige;
+    color: white;
 }
 .elementor-widget-container{
     display: flex;
@@ -66,7 +66,7 @@
     margin-bottom: 9px;
     font-family: 'Barlow',sans-serif;
     font-size: 16px;
-    color: beige;
+    color: white;
 }
 .location{
     padding: 10px;
@@ -81,7 +81,7 @@
     margin:30px 0px;
     font-family: 'Barlow',sans-serif;
     font-size: 18px;
-    color: beige;
+    color: white;
 }
 .elementor-col-wrap{
     display: flex;
@@ -119,4 +119,25 @@
    font-size: 16px;
    color: white;
 }
-
+.connectwithus{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.connectwithus h2{
+    margin:30px 0px;
+    font-family: 'Barlow',sans-serif;
+    font-size: 18px;
+   color: white;
+   text-transform: uppercase;
+}
+.icon{
+    font-family: 'Barlow',sans-serif;
+    font-size: 17px;
+   color: white;
+}
+.content{
+    font-family: 'Barlow',sans-serif;
+    font-size: 17px;
+   color: white;
+}

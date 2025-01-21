@@ -35,10 +35,10 @@ function Footer(){
                         </div>
                     </div>
                     <div className="connectwithus">
-                        <h2>Connect with us</h2>
+                        <div><h2>Connect with us</h2></div>
                         <div className="wgl-infobox">
-                            <div className="icon-wrapper"><span className="wgl-icon"><i className="icon"></i></span></div>
-                            <div className="content-wrapper"><p className="content"></p></div>
+                            <div className="icon-wrapper"><span className="wgl-icon"><i className="icon">admin@volunteerforindia.com</i></span></div>
+                            <div className="content-wrapper"><p className="content">+91 8660901092</p></div>
                         </div>
                         <div className="social-icons">
                             <span><a></a></span>

@@ -142,6 +142,9 @@ div p {
     flex-direction: column;
     gap: 10px;
 }
+.description div p{
+    color: black;
+}
 
 /* Media Query for screens wider than 700px */
 @media (min-width: 700px) {
