@@ -24,16 +24,17 @@ function Footer(){
                         </ul>
                         </div>
                     </div>
-                    <div className="location">
-                        <div className='location-heading'><h2>LOCATION</h2></div>
-                        <div className="elementor-col-wrap">
-                            <div><span></span><i className='location-logo'></i></div>
-                            <div className="location-content">
-                                <h3>Head Office</h3>
-                                <p>TC 7/1200, Chittatinkara, Vattiyoorkavu P.O.,Trivandrum 695013</p>
-                            </div>
-                        </div>
-                    </div>
+                    <div className="address">
+    <div className='address-heading'><h2>LOCATION</h2></div>
+    <div className="info-col-wrap">
+        <div><span></span><i className='address-logo'></i></div>
+        <div className="address-content">
+            <h3>Head Office</h3>
+            <p>TC 7/1200, Chittatinkara, Vattiyoorkavu P.O.,Trivandrum 695013</p>
+        </div>
+    </div>
+</div>
+
                     <div className="connectwithus">
                         <div><h2>Connect with us</h2></div>
                         <div className="wgl-infobox">
