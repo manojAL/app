@@ -15,36 +15,38 @@ function Register() {
         if (currState === 1) {
             return (
                 <div>
-                    <p>Let’s talk about what the fellowship entails!</p>
-                    <p>Joining Volship means you're already one step closer to making a change. Design and implement an impactful project plan to tackle pressing social issues in your city, that you are passionate about. Dive into 12 action-packed weeks where you will mobilise 75 volunteers shaping real community impact with our continuous support and resources.</p>
-                    <p>You are now part of an experience where you can network, have jamming sessions, attend masterclasses by experts, and polish your leadership skills.</p>
+                    <p>Plan and execute exciting technical events for your college community! As a club member, you'll be involved in every stage of event management, from brainstorming ideas and securing venues to coordinating logistics and promoting the events.</p>
+                    <p>Gain hands-on experience in project management, marketing, teamwork, and leadership.  Collaborate with fellow students, network with industry professionals, and develop valuable skills that will set you apart in your future career.</p>
+                    <p>From workshops and hackathons to coding competitions and tech talks, you'll have the opportunity to shape the technical landscape of your campus and inspire others to explore the world of technology.</p>
                 </div>
             );
         } else if (currState === 2) {
             return (
                 <div>
                     <ul>
-                        <li>Anyone between the ages of 18-29</li>
-                        <li>Available between May 4 - Jul 28, 2024</li>
-                        <li>Can spend 8 hours/ week for the Fellowship</li>
-                        <li>Can achieve a goal of 75 volunteers and 750 volunteering hours</li>
-                        <li>Fluent in English and the regional language of your city of application</li>
-                        <li>Physically available in the applied city for the entire Volship period</li>
-                        <li>People who are looking for leadership development</li>
+                        <li>Students with excellent communication and interpersonal skills.</li>
+                        <li>Proficiency in at least one programming language (e.g., Java, JavaScript, Python).</li>
+                        <li>Familiarity with front-end web development technologies, particularly React.</li>
+                        <li>Experience with back-end frameworks like Spring Boot is highly desirable.</li>
+                        <li>Demonstrated leadership potential or experience.</li>
+                        <li>A creative mindset and a passion for innovation.</li>
+                        <li>A strong interest in building web applications and contributing to technical projects.</li>
+                        <li>Students who are eager to learn and collaborate in a team environment.</li>
                     </ul>
                 </div>
             );
         } else if (currState === 3) {
             return (
                 <div>
-                    <p>Do you check any of these boxes? If your answer is YES, you could be an ideal fit for the VOLSHIP Fellowship. *We are looking for individuals who tick many or most of these boxes</p>
+                    <p>Do you check any of these qualities? If your answer is YES, you could be an ideal fit for the core member of Mozilla. *We are looking for individuals who tick many or most of these points</p>
                     <ul>
-                        <li>Passionate about volunteering</li>
-                        <li>Knowledgeable about the social issues they want to address</li>
-                        <li>Experienced in leading volunteer projects</li>
-                        <li>Confident in their leadership skills</li>
-                        <li>Skilled at collaborating with others</li>
-                    </ul>
+                    <li>A genuine passion for technology and a desire to stay at the forefront of innovation.</li>
+                    <li>Solid technical skills in their chosen area (or a strong commitment to learning).</li>
+                    <li>Demonstrated leadership potential, whether through formal roles or initiative.</li>
+                    <li>Excellent communication and interpersonal skills, enabling effective collaboration.</li>
+                    <li>A creative mindset and a knack for developing innovative solutions to challenges.</li>
+                    <li>A commitment to contributing to the club's success and fostering a positive tech community.</li>
+</ul>
                 </div>
             );
         }
@@ -121,14 +123,14 @@ function Register() {
                             onChange={handleChange}
                         >
                             <option value="">Select your city</option>
-                            <option value="Bengaluru">Bengaluru</option>
-                            <option value="Hyderabad">Hyderabad</option>
-                            <option value="Pune">Pune</option>
-                            <option value="Mumbai">Mumbai</option>
-                            <option value="Chennai">Chennai</option>
-                            <option value="Delhi">Delhi</option>
-                            <option value="Kolkata">Kolkata</option>
-                            <option value="others">Others</option>
+                            <option value="Media">Media</option>
+                            <option value="Research">Research</option>
+                            <option value="Technical">Technical</option>
+                            <option value="PR outreach">PR outreach</option>
+                            <option value="Contentcreation">Contentcreation</option>
+                            <option value="Photography">Photography</option>
+                            <option value="Organiser">Organiser</option>
+                            <option value="Coordinator">Coordinator</option>
                         </select>
                         {showAlert && !formData.city && <span className="alert">Please select a city</span>}
                     </div>
@@ -146,11 +148,11 @@ function Register() {
                     <button type="submit">Apply</button>
                 </form>
                 <div>
-                    <p><a href="#">Join our Volship Whatsapp Group for regular updates</a></p>
+                    <p><a href="#">Join our Mozilla Whatsapp Group for regular updates</a></p>
                 </div>
                 <div>
                     <span></span>
-                    <span>Download Fellowship Brochure</span>
+                    <span>Download Selection instructipon </span>
                 </div>
             </div>
         </div>

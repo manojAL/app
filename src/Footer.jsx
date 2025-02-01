@@ -6,9 +6,9 @@ function Footer(){
             <section className='content-sec'>
                 
                     <div className="volunteer">
-                        <div className="volunteer-logo"><h1 className='volunteer-heading'>Volunteer</h1></div>
+                        <div className="volunteer-logo"><h1 className='volunteer-heading'>MOZILLA CLUB</h1></div>
                         <div className="description">
-                            <p>Volunteer for India is an initiative of Society for Promotion of Volunteerism, a registered non profit organization (TVM/TC/45/2021) under the The Travancore-Cochin Literary, Scientific and Charitable Societies Registration Act, 1955, working towards promoting volunteerism.</p>
+                            <p>Mozilla Club is a dynamic technical club at our college, dedicated to fostering innovation, open-source contributions, and technical excellence. As part of the global Mozilla community, we aim to empower students by organizing workshops, hackathons, and technical events focused on web technologies, open-source development, and internet privacy. Our mission is to cultivate a collaborative environment where students can enhance their technical skills, contribute to real-world projects, and advocate for an open and accessible internet. Join us to learn, innovate, and grow with a like-minded community of tech enthusiasts! 🚀🔥</p>
                         </div>
                     </div>
                     <div className="sitemap">
@@ -17,8 +17,8 @@ function Footer(){
                         <ul className="widgets">
                             <li>Home</li>
                             <li>About</li>
-                            <li>Volship</li>
-                            <li>Partners</li>
+                            <li>Faculty coordinator</li>
+                            <li>Coordinators</li>
                             <li>Gallery</li>
                             <li>Contact</li>
                         </ul>
@@ -29,8 +29,8 @@ function Footer(){
     <div className="info-col-wrap">
         <div><span></span><i className='address-logo'></i></div>
         <div className="address-content">
-            <h3>Head Office</h3>
-            <p>TC 7/1200, Chittatinkara, Vattiyoorkavu P.O.,Trivandrum 695013</p>
+            <h3>Find us at</h3>
+            <p>VIT BHOPAL</p>
         </div>
     </div>
 </div>
@@ -38,7 +38,7 @@ function Footer(){
                     <div className="connectwithus">
                         <div><h2>Connect with us</h2></div>
                         <div className="wgl-infobox">
-                            <div className="icon-wrapper"><span className="wgl-icon"><i className="icon">admin@volunteerforindia.com</i></span></div>
+                            <div className="icon-wrapper"><span className="wgl-icon"><i className="icon">mozilla@vitbhopal.ac.in</i></span></div>
                             <div className="content-wrapper"><p className="content">+91 8660901092</p></div>
                         </div>
                         <div className="social-icons">

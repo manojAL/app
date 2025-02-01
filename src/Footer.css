@@ -175,7 +175,9 @@
   .bottom p {
     font-size: 12px;
   }
-  
+  .widgets li{
+    cursor: pointer;
+  }
   .copyright {
     font-size: 12px;
   }
