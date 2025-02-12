@@ -6,72 +6,43 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const data = [
-  {
-      Path: "/images/coding_competition.jpg", // Replace with actual image paths
-      EventName: "Coding Competition",
-      Category: "Coding & Software Development",
-      Date: "2024-10-27",
-      Registrations: 120,
+  { Path:"/images/photo1.jpg",
+    Initiation: "Providing clean water",
+    NGO_involved: "Charity: Water",
+    Location: "Addis Ababa",
+    People_registered: 250,
   },
-  {
-      Path: "/images/web_dev_workshop.jpg",
-      EventName: "Web Dev Workshop",
-      Category: "Coding & Software Development",
-      Date: "2024-11-03",
-      Registrations: 90,
+  { Path:"/images/photo2.jpg",
+    Initiation: "Distributing food supplies",
+    NGO_involved: "Feeding America",
+    Location: "Chicago",
+    People_registered: 300,
   },
-  {
-      Path: "/images/ethical_hacking.jpg",
-      EventName: "Ethical Hacking Intro",
-      Category: "Cybersecurity",
-      Date: "2024-11-17",
-      Registrations: 75,
+  { Path:"/images/photo3.jpg",
+    Initiation: "Protecting natural habitats",
+    NGO_involved: "The Nature Conservancy",
+    Location: "Yellowstone National Park",
+    People_registered: 100,
   },
-  {
-      Path: "/images/machine_learning.jpg",
-      EventName: "Machine Learning Basics",
-      Category: "AI & Machine Learning",
-      Date: "2024-12-08",
-      Registrations: 100,
+  { Path: "/images/photo4.jpg",
+    Initiation: "Combating global poverty",
+    NGO_involved: "Oxfam",
+    Location: "Dhaka",
+    People_registered: 400,
   },
-  {
-      Path: "/images/robotics_challenge.jpg",
-      EventName: "Robotics Challenge",
-      Category: "Robotics & Hardware",
-      Date: "2025-01-12",
-      Registrations: 60,
+  { Path:"/images/photo5.jpg",
+    Initiation: "Supporting childhood cancer",
+    NGO_involved: "St. Jude Children's Research Hospital",
+    Location: "Memphis",
+    People_registered: 150,
   },
-  {
-      Path: "/images/git_workshop.png",
-      EventName: "Git Version Control",
-      Category: "Coding & Software Development",
-      Date: "2025-01-26",
-      Registrations: 85,
-  },
-  {
-      Path: "/images/ctf_competition.jpg",
-      EventName: "Capture the Flag",
-      Category: "Cybersecurity",
-      Date: "2025-02-09",
-      Registrations: 50,
-  },
-  {
-      Path: "/images/ai_project_showcase.jpg",
-      EventName: "AI Project Showcase",
-      Category: "AI & Machine Learning",
-      Date: "2025-02-23",
-      Registrations: 70,
-  },
-  {
-      Path: "/images/arduino_workshop.png",
-      EventName: "Arduino Workshop",
-      Category: "Robotics & Hardware",
-      Date: "2025-03-08",
-      Registrations: 95,
+  { Path:"/images/photo6.jpg",
+    Initiation: "Offering social services",
+    NGO_involved: "The Salvation Army",
+    Location: "London",
+    People_registered: 200,
   },
 ];
-
-// ... (rest of your component code remains the same)
 
 function Cards() {
   const CustomPrevArrow = (props) => {
@@ -127,10 +98,10 @@ function Cards() {
               />
             </div>
             <div className="content">
-            <div className="EventName">{item.EventName}</div>
-            <div className="Category">{item.Category}</div>
-            <div className="Date">{item.Date}</div>
-            <div className="Registrations">Registrations: {item.Registrations}</div>
+            <div className="initiation">{item.Initiation}</div>
+            <div className="NGO">{item.NGO_involved}</div>
+            <div className="location">{item.Location}</div>
+            <div className="people">People: {item.People_registered}</div>
             </div>
             <div className="button"><button>JOIN</button></div>
           </div>

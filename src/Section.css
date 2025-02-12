@@ -110,13 +110,6 @@
 }
 @media (max-width: 700px) {
     .img-div {
-        display: column ; /* Hides the image container */
-        text-align: center;
-    }
-}
-@media (min-width: 870px) and (max-width: 1240px) {
-    .img-div {
-        /* You can add specific styles for this screen size range here */
-        padding: 40px; /* Example: Restore original padding */
+        display: none; /* Hides the image container */
     }
 }
